@@ -2,15 +2,7 @@
 
 class Producto
 {
-	private static $producto
-
-	public static function getInstance()
-	{
-		if(self::$producto == null)
-			self::$producto = new Producto();
-
-		return self::$producto;
-	}
+	
 
 	//Metodo para obtener el id del producto a consumir
 	public function getIDProducto($opcion, $monto)
