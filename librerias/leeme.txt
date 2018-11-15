@@ -1,0 +1,1 @@
+Esta carpeta contendraá todos los archivos externos y auxiliares del proceso del Webservice de Mercurio
