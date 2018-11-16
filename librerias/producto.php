@@ -2,7 +2,7 @@
 
 
 	//Metodo para obtener el id del producto a consumir
-	public function getIDProducto($opcion, $monto)
+	function getIDProducto($opcion, $monto)
 	{
 		switch ($opcion) 
 		{
@@ -266,7 +266,7 @@
 						break;
 				}
 				break;
-			case 'TELCEL'
+			case 'TELCEL':
 				switch ($monto) 
 				{
 					case 20:
