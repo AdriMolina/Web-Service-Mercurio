@@ -1,8 +1,5 @@
 <?php
 
-class Producto
-{
-	
 
 	//Metodo para obtener el id del producto a consumir
 	public function getIDProducto($opcion, $monto)
@@ -303,10 +300,10 @@ class Producto
 				break;
 
 			default:
-				$id ="0";
+				$id =null;
 		}
 		return $id;
 	}
-}
+
 
 ?>
